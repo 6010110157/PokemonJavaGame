@@ -19,6 +19,16 @@ public class Pokemon{
     public void attack() 
     {   
         hp = hp - 10;
+        exp=exp+10;
+    }
+    public int getLevel(){
+        return level;
+    }
+    public int getExp(){
+        return exp;
+    }
+    public int getHp(){
+        return hp;
     }
 }
     
